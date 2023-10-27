@@ -1,0 +1,163 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem ;
+    color: #393d41 ;
+    line-height:1.65;
+}
+
+#container{
+    margin:auto;
+}
+
+header{
+    background-color: black; 
+    text-align: center;
+    
+}
+
+header img{
+    width:33%;
+    margin:1.75rem auto;
+   }
+
+
+
+
+ h1, h2, h3, h4, h5, h6{
+    color: #25a2c3 ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    margin:1.75rem;
+    text-align: center;
+}
+
+h1{
+    margin:1.75rem;
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 1.6rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+
+
+article{
+    margin-bottom:1.75rem;
+    text-align: center;
+    padding:1.75rem  1.75rem 0px 1.75rem ;
+}
+
+
+
+main>article:first-child{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1.75rem;
+}
+   
+
+
+
+main>article:first-child a {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color:#f04c2f;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    margin: 1.75rem;
+    font-family: 'Montserrat', sans-serif; 
+    text-transform: uppercase;
+}
+
+#Notebook{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+main article:last-of-type {
+    margin-top:4rem;
+    padding-bottom: 1.75rem;
+    background-color: #e22d0e;
+    color:white;
+    
+}
+
+main article:last-of-type h3{
+    color:white;
+
+}
+
+main article:last-of-type>p:first-of-type{
+    font-style:italic;
+
+}
+
+#ceo{
+    margin:1.5rem;
+}
+
+#ceo p:first-of-type{
+    font-size: 1.6rem;
+
+}
+
+#ceo p:last-child{
+    font-size: 1rem;
+}
+
+section{
+    margin:3rem 1.75rem;
+    border: solid #dee1e3 1px;
+    text-align: center;
+    padding:0 0 1.9rem 0;
+
+}
+
+section img{
+    width: 100%;
+}
+
+
+footer{
+    padding: 1.75rem 0px 3rem 0px;
+    text-align: center;
+    background-color: #25a2c3;
+    color: white;
+
+}
+
+footer a{
+    color: white;
+}
+
+footer h3{
+    color: white;
+}
+
+
+footer ul li{
+    list-style-type: none;
+    
+}
+
+footer ul li:last-child{
+    display:inline;
+    
+}
+
+footer hr{
+    width: 80%;
+}
+
+
