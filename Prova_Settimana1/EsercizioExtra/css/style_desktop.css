@@ -1,0 +1,201 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem ;
+    color: #393d41 ;
+    line-height:1.65;
+}
+
+
+
+header{
+    background-color: black; 
+}
+
+header img{
+    width: 10%;
+    margin:1.75rem 1.75rem;
+   }
+
+
+
+
+ h1, h2, h3, h4, h5, h6{
+    color: #25a2c3 ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    margin:1.75rem;
+    text-align: center;
+  
+}
+
+h1{
+    margin:1.75rem;
+    font-size: 2.5rem;
+
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+
+
+article{
+    margin-bottom:1.75rem;
+    text-align: left;
+}
+
+
+
+main>article:first-child{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position:center top ;
+    text-align: center;
+    padding: 7rem 15rem;
+
+}
+   
+
+
+
+main>article:first-child a {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color:#f04c2f;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    margin: 1.75rem;
+    font-family: 'Montserrat', sans-serif; 
+    text-transform: uppercase;
+}
+
+#articoli_con_immagine{
+  margin-left:15rem;
+  text-align: center;
+
+
+}
+
+#articoli{
+    display: inline-block;
+    width: 40%;
+    margin: 5rem;
+}
+
+#articoli p, #articoli h2{
+    text-align: left;
+   
+    margin: 0px !important;
+    
+}
+
+#articoli h2{
+    font-size: 1.3rem !important;
+}
+
+#Notebook{
+    display: inline;
+    border-radius: 50%;
+    width: 38%;
+    margin:auto;
+}
+
+main>article:last-of-type {
+    margin-top:4rem;
+    padding-bottom: 1.75rem;
+    background-color: #e22d0e;
+    font-size: 1.5rem;
+    color:white;
+    padding: 5rem 15rem;
+    
+}
+
+main>article:last-of-type h3{
+    color:white;
+
+}
+
+main>article:last-of-type>p:first-of-type{
+    text-align: center;
+    font-style:italic;
+
+}
+
+#ceo{
+    text-align: center;
+    margin:1rem;
+}
+
+#ceo p:first-of-type{
+    font-size: 1.5rem;
+
+}
+
+#ceo p:last-child{
+    font-size: 0.9rem;
+}
+
+section{
+    display:inline-block;
+    margin:0px 0.5rem;
+    border: solid #dee1e3 1px;
+    text-align: center;
+    
+    width: 30%;
+    height: 28rem;
+
+}
+
+section img{
+    width: 100%;
+    height: 15rem;
+    
+}
+
+#sezioni{
+    text-align: center;
+    
+    margin: 5rem auto;
+            
+}
+
+
+footer{
+    padding: 1.75rem 0px 3rem 0px;
+    text-align: center;
+    background-color: #25a2c3;
+    color: white;
+
+}
+
+footer a{
+    color: white;
+}
+
+footer h3{
+    color: white;
+}
+
+
+footer ul li{
+    list-style-type: none;
+    
+}
+
+footer ul li:last-child{
+    display:inline;
+    
+}
+
+footer hr{
+    width: 80%;
+}
+
+
