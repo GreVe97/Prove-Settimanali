@@ -1,0 +1,164 @@
+/* Your styles here */
+body{
+    background-color: #E9EDEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,footer{
+    background-color: #222F3F;
+    
+}
+
+header img{
+    width: 10%;
+    margin:0.8rem auto 0.8rem 1.8rem;
+    
+}
+
+nav, .torna_su {
+    background-color: #364759;  
+}
+
+nav a{
+    text-decoration: none;
+    color:#E9F3FC;
+    
+}
+
+nav li{
+    display: inline-block;
+    margin:0.5rem 0rem 0.5rem 1.8rem;
+}
+main{
+    
+    padding-left:2rem;
+    padding-right:2rem
+}
+.Ma_che_è{
+    text-align: center;
+    background-color: #F56600;
+    color: white;
+      
+    margin:1.8rem 0rem 1.8rem 0rem;
+    padding: 0.5rem;
+}
+.Ma_che_è h3{
+    font-size: 1.1rem; 
+    font-weight: 500;
+
+}
+.Eccone_naltro{
+    background-image: url(../images/bg-image.png);
+    background-repeat: repeat-y;
+    text-align: center;
+    padding-top:4rem;
+    padding-bottom: 3rem;
+}
+
+.Eccone_naltro h3{
+    font-size: 1.8rem;    
+    color: #E8EAEE;
+    margin-bottom: 2rem;
+}
+.Eccone_naltro a, .Eccone_naltro h3, .Eccone_naltro p{
+    color: #E8EAEE;
+    text-decoration: none;
+    font-weight: bold;
+}
+section:first-of-type{
+    margin-top: 3rem; 
+    margin-bottom:3rem;
+    background-color: white; 
+    padding-bottom: 1rem;    
+   
+}
+
+section:first-of-type h2{
+    text-align: left;
+    font-size: 1.3rem;
+    display: inline-block;
+    font-weight: 500;
+
+}
+h2{
+   font-size: 1.2rem;
+    display: inline-block;
+    font-weight: 500; 
+    margin-top: 0.3rem;
+}
+
+.Altra_sezione a{
+    text-decoration: none;
+    color: #166B74;
+    font-weight: bold;
+    margin-left:1.5rem;
+}
+
+
+.naviga{
+    padding:1rem 1rem 1rem 1.8rem;
+}
+.naviga a{
+    text-decoration: none;
+    color: #166B74;
+    font-weight: bold;
+    margin-left:1.5rem;
+    font-size:1.2rem
+}
+.immagini{
+    text-align: center;
+}
+
+.immagini a{
+    display: inline-block;    
+    width: 17rem;
+    height: 21rem;    
+    overflow:hidden;
+    margin:0.5rem;
+    
+    
+}
+.immagini a img{    
+    border-radius: 2rem;    
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+       
+}
+
+.Altra_sezione{
+    width: 100%;
+    text-align: center;
+}
+
+.Altra_sezione img{
+    width: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.Altra_sezione div{
+    margin-bottom: 2rem;
+}
+
+
+.torna_su{
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.torna_su a{
+    color: white;
+    font-weight: bold;    
+}
+
+footer{
+    
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer img{
+   margin: 4rem;
+    width: 15%;
+}
